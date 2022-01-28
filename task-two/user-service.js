@@ -1,4 +1,3 @@
-
 const getWorstInfraction = (list) => (
   [...list].sort((a, b) => b.points - a.points)[0]
 )
