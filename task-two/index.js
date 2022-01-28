@@ -1,5 +1,5 @@
 import userApi from './user-api-adapter.js'
-import userService from './user-service.js';
+import userService from './user-service.js'
 
 export const getRelevantInfractionReasons = async (username) => {
   try {
@@ -12,6 +12,6 @@ export const getRelevantInfractionReasons = async (username) => {
     return { mostRecent, worst }
 
   } catch (error) {
-    console.log('we have an error ', error);
+    console.log('we have an error ', error)
   }
 }
