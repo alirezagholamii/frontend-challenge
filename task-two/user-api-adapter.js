@@ -1,4 +1,4 @@
-import { getUserByName, getUserInfractions } from './user-api.js';
+import { getUserByName, getUserInfractions } from './user-api.js'
 
 const getUserByNameAdapter = (username) => {
   return new Promise((resolve, reject) => {
